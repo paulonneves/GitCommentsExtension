@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+        body {
+        font-family: "Outfit", sans-serif;
+        font-size: 15px;
+        width: 300px;
+      }
+
+      .app-bar {
+        background-color: #2c3e50;
+        height: 100px;
+      }
+
+      .card {
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+          rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding: 10px;
+      }
+
+      .card-title {
+        font-weight: 700;
+        font-size: 17px;
+        text-align: center;
+        width: 100%;
+      }
+
+      .card-subtitle {
+        font-weight: 400;
+        text-align: start;
+        color: gray;
+        width: 90%;
+      }
+
+      .card-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      img.avatar {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Recent</h3>
+    <div class="card">
+        <div class="card-header">
+            <img class="avatar" src="joseph.jpg" />
+            <h3 class="card-title">Joseph Randwall</h3>
+            <div></div>
+        </div>
+        <h4 class="card-subtitle">
+          Incrivel gerência de estado. Não é necessário usar setState!!
+        </h4>
+    </div>
+    <br>
+    <div class="card">
+      <div class="card-header">
+          <img class="avatar" src="tvl.jpg" />
+          <h3 class="card-title">Paul Simon</h3>
+          <div></div>
+      </div>
+      <h4 class="card-subtitle">
+        Legal, mas senti falta de uma versão para typescript
+      </h4>
+  </div>
+  <br>
+  <div class="card">
+    <div class="card-header">
+        <img class="avatar" src="neet.jpg" />
+        <h3 class="card-title">Philip Hooke</h3>
+        <div></div>
+    </div>
+    <h4 class="card-subtitle">Abre os arquivos do Drive diretamente do navegador em apps compatíveis.</h4>
+</div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "GitComments extension",
+    "description": "extensão code",
+    "author": "Diogo Neves, Paulo Ricardo Ferreira Neves",
+    "browser_action": {
+        "default_title": "GitComments",
+        "default_popup": "index.html"
+    }
+}
